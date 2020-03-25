@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Hello Hydeout
+excerpt: "This is a user-defined post excerpt. It should be displayed in place of the auto-generated excerpt or post content on index pages."
 excerpt_separator:  <!--more-->
 ---
 
