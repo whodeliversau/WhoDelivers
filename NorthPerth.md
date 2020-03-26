@@ -1,5 +1,5 @@
 ---
 layout: category
-title: Leederville
+title: North Perth
 # sidebar_link: true
 ---

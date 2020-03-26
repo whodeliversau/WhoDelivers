@@ -1,5 +1,5 @@
 ---
 layout: category
-title: MtLawley
+title: Mt Lawley
 # sidebar_link: true
 ---
