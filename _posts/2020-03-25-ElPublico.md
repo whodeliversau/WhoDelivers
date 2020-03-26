@@ -7,6 +7,7 @@ tags:
   - Mexican
   - Tortillas
   - Salsa
+my_logo: https://placehold.it/400x200
 ---
 
 El publico is located on Beaufort St.
