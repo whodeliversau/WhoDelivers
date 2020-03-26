@@ -1,15 +1,16 @@
 ---
 layout: post
-title: "El Publico"
+title: "El Público"
 categories:
   - Highgate
 tags:
   - Mexican
   - Tortillas
   - Salsa
-my_logo: https://placehold.it/400x200
+my_logo: https://elpublico.com.au/wp-content/themes/monkv2/images/landing_01.png
 ---
-## Modern Mexican Kitchen and Bar
+
+![placeholder](https://elpublico.com.au/wp-content/themes/monkv2/images/landing_01.png "Large example image")
 
 El publico is located on Beaufort St.
 

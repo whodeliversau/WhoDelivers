@@ -6,7 +6,8 @@ categories:
 tags:
   - Burger
   - Chips
-my_logo: https://placehold.it/400x200
+my_logo: https://www.huxtaburger.com.au/wp-content/themes/HUX/images/logo.png
 ---
 
-## Huxtaburger
+
+![placeholder](https://www.huxtaburger.com.au/wp-content/themes/HUX/images/logo.png "Large example image")

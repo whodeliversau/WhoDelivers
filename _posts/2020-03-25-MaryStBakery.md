@@ -6,7 +6,7 @@ categories:
 tags:
   - Bakery
   - Coffee
-my_logo: https://placehold.it/400x200
+my_logo: http://www.marystreetbakery.com.au/wp-content/themes/Monk2016/images/logo.png
 ---
 
-## Mary St Bakery
+![placeholder](http://www.marystreetbakery.com.au/wp-content/themes/Monk2016/images/logo.png "Large example image")

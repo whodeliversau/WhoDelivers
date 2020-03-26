@@ -10,15 +10,19 @@ layout: page
   {% assign category = page.category | default: page.title %}
   {% for post in site.categories[category] %}
     <li>
-      <h3>
+      <div class="category_div">
+        <h3>
+          <a href="{{ post.url | relative_url }}">
+            {{ post.title }}
+            <!-- <small>{{ post.date | date_to_string }}</small> -->
+          </a>
+        </h3>
+        {% if post.my_logo %}
         <a href="{{ post.url | relative_url }}">
-          {{ post.title }}
-          <!-- <small>{{ post.date | date_to_string }}</small> -->
+          <img class="category_logo" src="{{ post.my_logo }}">
         </a>
-      </h3>
-      {% if post.my_logo %}
-        <img src="{{ post.my_logo }}">
-      {% endif %}
+        {% endif %}
+      </div>
     </li>
   {% endfor %}
 </ul>
