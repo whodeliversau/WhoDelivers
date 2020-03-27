@@ -1,5 +1,10 @@
 # Released under MIT License
 
+Copyright (c) 2020 Gerardo Gornes.
+
+This website was built using Jekyll and a Jekyll theme named Hydeout made by Andrew Fong which I edited.
+
+
 Copyright (c) 2013 Mark Otto.
 
 Copyright (c) 2017 Andrew Fong.

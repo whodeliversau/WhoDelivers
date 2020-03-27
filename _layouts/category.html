@@ -11,12 +11,12 @@ layout: page
   {% for post in site.categories[category] %}
     <li>
       <div class="category_div">
-        <h3>
+        <!-- <h3>
           <a href="{{ post.url | relative_url }}">
             {{ post.title }}
-            <!-- <small>{{ post.date | date_to_string }}</small> -->
+            <small>{{ post.date | date_to_string }}</small>
           </a>
-        </h3>
+        </h3> -->
         {% if post.my_logo %}
         <a href="{{ post.url | relative_url }}">
           <img class="category_logo" src="{{ post.my_logo }}">

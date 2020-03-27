@@ -13,9 +13,9 @@ body {
 }
 
 html {
-  // font-family: $root-font-family;
+  font-family: $root-font-family;
   // font-family: 'Open Sans', sans-serif;
-  font-family: 'Lato', sans-serif;
+  // font-family: 'Lato', sans-serif;
   // font-family: 'Calistoga', cursive;
   font-size: $root-font-size;
   line-height: $root-line-height;
@@ -24,9 +24,7 @@ html {
     font-size: $large-font-size;
   }
 
-  h1, h2, h3, h4 , h5, h6 {
-    font-family: 'Calistoga', cursive;
-  }
+  
 }
 
 body {
@@ -137,4 +135,18 @@ input[type='submit'] {
 .category_div {
   margin: 15px;
   padding: 15px;
+  background-color: #af98b178;
+  text-align: center;
+  img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+}
+
+.post_content {
+  img {
+    background-color: #af98b178;
+  }
+  
 }
