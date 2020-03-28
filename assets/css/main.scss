@@ -55,8 +55,12 @@ body {
 
 @media (min-width: 49rem) {
     #sidebar {
-        // margin-left: 8.3%;
-        // margin-right: 8.3%;
+        margin-left: 8.3%;
+        margin-right: 8.3%;
+    }
+
+    .container {
+        margin-left: 33%;
     }
 }
 
