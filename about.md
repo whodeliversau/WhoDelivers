@@ -4,7 +4,7 @@ title: About
 # sidebar_link: true
 ---
 <div class="content">
-    <h1>Let's help our community!</h1>
+    <h1 class="page-title">Let's help our community!</h1>
 
     <p>The global covid19 outbreak presents Australians with new challenges - challenges we’ve never met before. Now more than ever it’s important to buy local and support those businesses dedicated to supporting us.</p>
     <p>Our communities, families, businesses, and relationships have to stick together through the hard yakka of the coming months, and give our all; to ensure our neighbourhood ties, services, and lifestyle survive through these unsure times.</p>
