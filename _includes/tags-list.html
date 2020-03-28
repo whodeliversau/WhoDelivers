@@ -28,8 +28,13 @@
           <li>
             <h3>
               <a href="{{ post.url | relative_url }}">
-                {{ post.title }}
+                <!-- {{ post.title }} -->
                 <!-- <small>{{ post.date | date_to_string }}</small> -->
+                {% if post.my_logo %}
+                  <a href="{{ post.url | relative_url }}">
+                    <img class="category_logo" src="{{ post.my_logo }}">
+                  </a>
+                {% endif %}
               </a>
             </h3>
           </li>
