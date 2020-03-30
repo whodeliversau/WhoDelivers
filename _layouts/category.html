@@ -17,9 +17,9 @@ layout: page
             <small>{{ post.date | date_to_string }}</small>
           </a>
         </h3> -->
-        {% if post.my_logo %}
+        {% if post._logo %}
         <a href="{{ post.url | relative_url }}">
-          <img class="category_logo" src="{{ post.my_logo }}">
+          <img class="category_logo" src="{{ post._logo }}">
         </a>
         {% endif %}
       </div>

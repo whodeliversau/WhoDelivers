@@ -7,11 +7,105 @@ layout: default
 </header>
 <div class="content">
   <div class="post_content">
+    {% comment %}
     {% include post-meta.html post=page %}
+    {% endcomment %}
+    
+    <div class="post_head">
+
+      {% if page._logo_bg %}
+      <div class="post_info post_logo" style="background:url({{ page._logo_bg }}); background-size:100% 100%; background-color: #f3ffff"">
+        <a href="#">
+          <img src="{{ page._logo }}">
+        </a>
+      </div>
+      {% else %}
+
+      <div class="post_info post_logo">
+        <a href="{{ page._logo }}">
+          <img src="{{ page._logo }}">
+        </a>
+      </div>
+      {% endif %}
+
+      <div class="post_info post_phone">
+        <span class="post_icon">
+          <svg width="15px" height="15px" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <!-- Generator: Sketch 3.8.1 (29687) - http://www.bohemiancoding.com/sketch -->
+            <title>call [#192]</title>
+            <desc>Created with Sketch.</desc>
+            <defs></defs>
+            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="Dribbble-Dark-Preview" transform="translate(-103.000000, -7321.000000)" fill="#FFFFFF">
+                    <g id="icons" transform="translate(56.000000, 160.000000)">
+                        <path d="M61.7302966,7173.99596 C61.2672966,7175.40296 59.4532966,7176.10496 58.1572966,7175.98796 C56.3872966,7175.82796 54.4612966,7174.88896 52.9992966,7173.85496 C50.8502966,7172.33496 48.8372966,7169.98396 47.6642966,7167.48896 C46.8352966,7165.72596 46.6492966,7163.55796 47.8822966,7161.95096 C48.3382966,7161.35696 48.8312966,7161.03996 49.5722966,7161.00296 C50.6002966,7160.95296 50.7442966,7161.54096 51.0972966,7162.45696 C51.3602966,7163.14196 51.7112966,7163.84096 51.9072966,7164.55096 C52.2742966,7165.87596 50.9912966,7165.93096 50.8292966,7167.01396 C50.7282966,7167.69696 51.5562966,7168.61296 51.9302966,7169.09996 C52.6632966,7170.05396 53.5442966,7170.87696 54.5382966,7171.50296 C55.1072966,7171.86196 56.0262966,7172.50896 56.6782966,7172.15196 C57.6822966,7171.60196 57.5872966,7169.90896 58.9912966,7170.48196 C59.7182966,7170.77796 60.4222966,7171.20496 61.1162966,7171.57896 C62.1892966,7172.15596 62.1392966,7172.75396 61.7302966,7173.99596 C61.4242966,7174.92396 62.0362966,7173.06796 61.7302966,7173.99596" id="call-[#192]"></path>
+                    </g>
+                </g>
+            </g>
+        </svg>
+        </span>
+        <span class="post_info_text">
+          <a href="{{ page._phone }}">Call</a>
+        </span>
+      </div>
+
+      <div class="post_info post_location">
+        <a href="{{ page._maps }}">
+          <span class="post_icon">
+            <svg width="14px" height="20px" viewBox="0 0 14 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <!-- Generator: Sketch 3.8.1 (29687) - http://www.bohemiancoding.com/sketch -->
+              <title>pin_sharp_circle [#624]</title>
+              <desc>Created with Sketch.</desc>
+              <defs></defs>
+              <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                  <g id="Dribbble-Dark-Preview" transform="translate(-223.000000, -5439.000000)" fill="#FFFFFF">
+                      <g id="icons" transform="translate(56.000000, 160.000000)">
+                          <path d="M176,5286.219 C176,5287.324 175.105,5288.219 174,5288.219 C172.895,5288.219 172,5287.324 172,5286.219 C172,5285.114 172.895,5284.219 174,5284.219 C175.105,5284.219 176,5285.114 176,5286.219 M174,5296 C174,5296 169,5289 169,5286 C169,5283.243 171.243,5281 174,5281 C176.757,5281 179,5283.243 179,5286 C179,5289 174,5296 174,5296 M174,5279 C170.134,5279 167,5282.134 167,5286 C167,5289.866 174,5299 174,5299 C174,5299 181,5289.866 181,5286 C181,5282.134 177.866,5279 174,5279" id="pin_sharp_circle-[#624]"></path>
+                      </g>
+                  </g>
+              </g>
+          </svg>
+      </span>
+      <span class="post_info_text">
+        Location
+      </span>
+        </a>
+      </div>
+
+      <div class="post_info post_url">
+        <a href="{{ page._url }}">
+          <span class="post_icon">
+            <svg width="21px" height="20px" viewBox="0 0 21 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <!-- Generator: Sketch 3.8.1 (29687) - http://www.bohemiancoding.com/sketch -->
+              <title>url [#1423]</title>
+              <desc>Created with Sketch.</desc>
+              <defs></defs>
+              <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                  <g id="Dribbble-Dark-Preview" transform="translate(-339.000000, -600.000000)" fill="#FFFFFF">
+                      <g id="icons" transform="translate(56.000000, 160.000000)">
+                          <path d="M286.388001,443.226668 C288.054626,441.639407 290.765027,441.639407 292.431651,443.226668 L293.942296,444.665378 L295.452942,443.226668 L293.942296,441.787958 C291.439155,439.404014 287.380498,439.404014 284.877356,441.787958 C282.374215,444.171902 282.374215,448.03729 284.877356,450.421235 L286.388001,451.859945 L287.898647,450.421235 L286.388001,448.982525 C284.721377,447.395264 284.721377,444.813929 286.388001,443.226668 L286.388001,443.226668 Z M302.122644,449.578765 L300.611999,448.139038 L299.101353,449.578765 L300.611999,451.017475 C302.277554,452.603719 302.277554,455.186071 300.611999,456.773332 C298.945374,458.359576 296.233905,458.359576 294.568349,456.773332 L293.057704,455.333605 L291.54599,456.773332 L293.057704,458.212042 C295.560845,460.595986 299.619502,460.595986 302.122644,458.212042 C304.625785,455.828098 304.625785,451.96271 302.122644,449.578765 L302.122644,449.578765 Z M288.653969,443.946023 L299.856676,454.61425 L298.344962,456.053977 L287.143324,445.384733 L288.653969,443.946023 Z" id="url-[#1423]"></path>
+                      </g>
+                  </g>
+              </g>
+          </svg>
+          </span>
+          <span class="post_info_text">
+            Visit Website
+          </span>
+        </a>
+      </div>
+
+      <div class="post_info post_tags">
+        {% include post-tags.html post=page %}
+      </div>
+
+    </div>
+
 
     <div class="post-body">
       {{ content }}
-      {% include post-tags.html post=page %}
+      
+      
     </div>
   </div>
 
